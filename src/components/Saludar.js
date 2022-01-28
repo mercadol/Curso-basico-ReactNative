@@ -8,11 +8,11 @@ export default function Saludar(props) {
         <Text>Hola {firstname} {lastname}</Text>
     );
 }
-/*
+
 Saludar.defaultProps={
     firstname: "leonardo",
     lastname: "mercado"
-};*/
+};
 
 Saludar.propTypes={
     firstname: PropTypes.string.isRequired,
