@@ -1,6 +1,5 @@
 import React from "react";
 import { View, TextInput, Button } from "react-native";
-//import {  } from "react-native-web";
 
 export default function LoginForm() {
     return(
