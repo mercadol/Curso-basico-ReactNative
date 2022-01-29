@@ -18,7 +18,7 @@ export default function SettingsScreen (props) {
             <Text> estamos en SettingsScreen</Text>
             <Text> estamos en SettingsScreen</Text>
             <Text> estamos en SettingsScreen</Text>
-            <Button onPress={goToHome} title="Home" />
+            <Button onPress={()=> goToPage("Home")} title="Home" />
 
         </View>
     );
