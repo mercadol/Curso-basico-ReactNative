@@ -1,9 +1,9 @@
 import React from "react";
-import { createButtomTabNavigator } from "@react-navigation/bottom-tabs";
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import HomeScreen from "../screens/HomeScreen";
 import SettingsScreen from "../screens/SettingsScreen";
 
-const Tap = createButtomTabNavigator();
+const Tap = createBottomTabNavigator();
 
 export default function NavigationTab(){
     return(
